@@ -19,6 +19,6 @@
 |---|:------:|-----|------|------|-----|
 |217|`Easy`|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python]()|**O(n)**/**O(n)**|1. Dictionary and iterate <br>2. Set the array and compare lengths<br>3. Sort, Set and zip through array|
 |1507|`Easy`|[Reformat Date](https://leetcode.com/problems/reformat-date/)|[Python]()|**O(n)**/**O(1)**|1. Dictionary and lookup date <br>2. Use .format and dictionary|
-
+|448|`Easy`|[Find All Numbers Disappeared](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Python]()|**O(n)**/**O(n)**|1. if not in list, return <br>2. Use numpy to create a compare list<br>3. Set(list) and return difference|
 
 <!-- ---|``|[]()|[Python]()|**O()**|**O()**|----Note---| -->
