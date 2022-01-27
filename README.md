@@ -17,11 +17,11 @@
 
 |#|Difficulty|Name|Solution|Time/Space|Technique Used|
 |---|:------:|-----|------|------|-----|
-|121|`Easy`|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Python]()|1.**O(n)**/**O(1)**<br>2.**O(n^2)**/**O(1)**|1. Kadane's Algorithm<br>2. Brute Force - Nested For Loop|
-|217|`Easy`|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python]()|**O(n)**/**O(n)**|1. Dictionary and iterate <br>2. Set the array and compare lengths<br>3. Sort, Set and zip through array|
-|268|`Easy`|[Missing Number](https://leetcode.com/problems/missing-number/)|[Python]()|1.**O(n)**/**O(n)**<br>2.**O(n)**/**O(1)**<br>3.**O(n)**/**O(1)**|1. Dictionary and lookup<br>2. Return if not in range<br>3. Sum of 0->n minus sum of nums|
-|448|`Easy`|[Find All Numbers Disappeared](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Python]()|**O(n)**/**O(n)**|1. if not in list, return <br>2. Use numpy to create a compare list<br>3. Set(list) and return difference|
-|1507|`Easy`|[Reformat Date](https://leetcode.com/problems/reformat-date/)|[Python]()|**O(n)**/**O(1)**|1. Dictionary and lookup date <br>2. Use .format and dictionary|
+|121|`Easy`|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Python](./easy/121besttimetobuyandsellstock.py)|1.**O(n)**/**O(1)**<br>2.**O(n^2)**/**O(1)**|1. Kadane's Algorithm<br>2. Brute Force - Nested For Loop|
+|217|`Easy`|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python](./easy/217containsduplicate.py)|**O(n)**/**O(n)**|1. Dictionary and iterate <br>2. Set the array and compare lengths<br>3. Sort, Set and zip through array|
+|268|`Easy`|[Missing Number](https://leetcode.com/problems/missing-number/)|[Python](./easy/268missingnumber.py)|1.**O(n)**/**O(n)**<br>2.**O(n)**/**O(1)**<br>3.**O(n)**/**O(1)**|1. Dictionary and lookup<br>2. Return if not in range<br>3. Sum of 0->n minus sum of nums|
+|448|`Easy`|[Find All Numbers Disappeared](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Python](./easy/448findallnumbersdisappeared.py)|**O(n)**/**O(n)**|1. if not in list, return <br>2. Use numpy to create a compare list<br>3. Set(list) and return difference|
+|1507|`Easy`|[Reformat Date](https://leetcode.com/problems/reformat-date/)|[Python](./easy/1507reformatdate.py)|**O(n)**/**O(1)**|1. Dictionary and lookup date <br>2. Use .format and dictionary|
 
 
 
