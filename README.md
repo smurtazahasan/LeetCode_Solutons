@@ -19,6 +19,7 @@
 |---|:------:|-----|------|------|-----|
 |13|`Easy`|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Python](./easy/13romantointeger.py)|**O(n)**/**O(1)**|1. Iterate backwards and multiply<br>2. Use replace() and iterate through<br>3. Check if prev value for smaller|
 |20|`Easy`|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Python](./easy/20validparentheses.py)|1.**O(n^3)**/**O(1)**<br>2.**O(n)**/**O(1)**|1. Use .replace inside loop<br>2. Check against dictionary|
+|26|`Easy`|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Python](./easy/26removeduplicatesfromsortedarray.py)|1.**O(n)**/**O(1)**<br>2.**O(n)**/**O(1)**|1. Keep track of index<br>2. Use two pointers to keep track|
 |121|`Easy`|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Python](./easy/121besttimetobuyandsellstock.py)|1.**O(n)**/**O(1)**<br>2.**O(n^2)**/**O(1)**|1. Kadane's Algorithm<br>2. Brute Force - Nested For Loop|
 |217|`Easy`|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python](./easy/217containsduplicate.py)|**O(n)**/**O(n)**|1. Dictionary and iterate <br>2. Set the array and compare lengths<br>3. Sort, Set and zip through array|
 |268|`Easy`|[Missing Number](https://leetcode.com/problems/missing-number/)|[Python](./easy/268missingnumber.py)|1.**O(n)**/**O(n)**<br>2.**O(n)**/**O(1)**<br>3.**O(n)**/**O(1)**|1. Dictionary and lookup<br>2. Return if not in range<br>3. Sum of 0->n minus sum of nums|
