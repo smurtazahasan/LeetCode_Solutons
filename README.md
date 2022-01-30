@@ -3,7 +3,6 @@
 ![Language](https://img.shields.io/badge/language-Python%20%20%20-blue.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
 ![Update](https://img.shields.io/badge/update-daily-green.svg)&nbsp;
-![Progress](https://img.shields.io/badge/progress-9%20%2F%202147-ff69b4.svg)&nbsp;
 ![Progress](https://img.shields.io/badge/progress-12%20%2F%202147-ff69b4.svg)&nbsp;
 
 ## Objective
