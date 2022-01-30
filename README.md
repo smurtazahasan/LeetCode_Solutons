@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
 ![Update](https://img.shields.io/badge/update-daily-green.svg)&nbsp;
 ![Progress](https://img.shields.io/badge/progress-9%20%2F%202147-ff69b4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-12%20%2F%202147-ff69b4.svg)&nbsp;
 
 ## Objective
 * This repo is to help me reach my objective of completing majority of leetcode questions and using this as a way for myself and others to track my progress 📈
@@ -18,6 +19,7 @@
 |#|Difficulty|Name|Solution|Time/Space|Technique Used|
 |---|:------:|-----|------|------|-----|
 |1|`Easy`|[Two Sum](https://leetcode.com/problems/two-sum/)|[Python](./easy/1twosum.py)|1.**O(n)**/**O(1)**<br>2.**O(n^2)**/**O(n)**|1. Using dictionary to target difference<br>2. Brute with nested loops|
+|9|`Easy`|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Python](./easy/9palindromenumber.py)|1.**O(n)**/**O(n)**<br>2.**O(n)**/**O(1)**<br>3.**O(n)**/**O(n)**|1. Using pointers<br>2. Reversing number with modulo<br>3. Reverse and compare string|
 |13|`Easy`|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Python](./easy/13romantointeger.py)|**O(n)**/**O(1)**|1. Iterate backwards and multiply<br>2. Use replace() and iterate through<br>3. Check if prev value for smaller|
 |20|`Easy`|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Python](./easy/20validparentheses.py)|1.**O(n^3)**/**O(1)**<br>2.**O(n)**/**O(1)**|1. Use .replace inside loop<br>2. Check against dictionary|
 |26|`Easy`|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Python](./easy/26removeduplicatesfromsortedarray.py)|1.**O(n)**/**O(1)**<br>2.**O(n)**/**O(1)**|1. Keep track of index<br>2. Use two pointers to keep track|
