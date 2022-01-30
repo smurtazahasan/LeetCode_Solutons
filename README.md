@@ -16,13 +16,13 @@
 ## Easy
 
 |#|Name|Solution|Time/Space|Technique Used|
-|---|------|:-----:|:------:|------|
-|1|[Two Sum][1L]|[Python][1F]|1. **O(n)**/**O(1)**<br>2. **O(n^2)**/**O(n)**|1. Using dictionary to target difference<br>2. Brute with nested loops|
+|---|------|:-----:|:-----:|------|
+|1|[Two Sum][1L]|[Python][1F]|1. **O(n)**/**O(1)**<br>2. **O(n<sup>2</sup>)**/**O(n)**|1. Using dictionary to target difference<br>2. Brute with nested loops|
 |9|[Palindrome Number][9L]|[Python][9F]|1. **O(n)**/**O(n)**<br>2. **O(n)**/**O(1)**<br>3. **O(n)**/**O(n)**|1. Using pointers<br>2. Reversing number with modulo<br>3. Reverse and compare string|
 |13|[Roman to Integer][13L]|[Python][13F]|**O(n)**/**O(1)**|1. Iterate backwards and multiply<br>2. Use replace() and iterate through<br>3. Check if prev value for smaller|
-|20|[Valid Parentheses][20L]|[Python][20F]|1. **O(n^3)**/**O(1)**<br>2. **O(n)**/**O(1)**|1. Use .replace inside loop<br>2. Check against dictionary|
+|20|[Valid Parentheses][20L]|[Python][20F]|1. **O(n<sup>3</sup>)**/**O(1)**<br>2. **O(n)**/**O(1)**|1. Use .replace inside loop<br>2. Check against dictionary|
 |26|[Remove Duplicates from Sorted Array][26L]|[Python][26F]|1. **O(n)**/**O(1)**<br>2. **O(n)**/**O(1)**|1. Keep track of index<br>2. Use two pointers to keep track|
-|121|[Best Time to Buy and Sell Stock][121L]|[Python][121F]|1. **O(n)**/**O(1)**<br>2. **O(n^2)**/**O(1)**|1. Kadane's Algorithm<br>2. Brute Force - Nested For Loop|
+|121|[Best Time to Buy and Sell Stock][121L]|[Python][121F]|1. **O(n)**/**O(1)**<br>2. **O(n<sup>2</sup>)**/**O(1)**|1. Kadane's Algorithm<br>2. Brute Force - Nested For Loop|
 |125|[Valid Palindrome][125L]|[Python][125F]|1. **O(n)**/**O(1)**<br>2. **O(n)**/**O(n)**<br>3. **O(n)**/**O(1)**|1. Two pointers for O(1) space<br>2. Append if isalnum() true<br>3. same as 2|
 |217|[Contains Duplicate][217L]|[Python][217F]|**O(n)**/**O(n)**|1. Dictionary and iterate<br>2. Set the array and compare lengths<br>3. Sort, Set and zip through array|
 |268|[Missing Number][268L]|[Python][268F]|1. **O(n)**/**O(n)**<br>2. **O(n)**/**O(1)**<br>3. **O(n)**/**O(1)**|1. Dictionary and lookup<br>2. Return if not in range<br>3. Sum of 0->n minus sum of nums|
