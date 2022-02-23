@@ -26,11 +26,11 @@
 |125|[Valid Palindrome][125L]|[Python][125F]|1.**O(n)**/**O(1)**<br>2.**O(n)**/**O(n)**<br>3.**O(n)**/**O(1)**|1. Two pointers for O(1) space<br>2. Append if isalnum() true<br>3. same as 2|
 |136|[Single Number][136L]|[Python][136F]|1.**O(n)**/**O(n)**<br>2.**O(n)**/**O(1)**|1. Search dictionary for one number<br>2. XOR - Bit manipulation|
 |217|[Contains Duplicate][217L]|[Python][217F]|**O(n)**/**O(n)**|1. Dictionary and iterate<br>2. Set the array and compare lengths<br>3. Sort, Set and zip through array|
+|219|[Contains Duplicate II][219L]|[Python][219F]|1.**O(n)**/**O(n)**<br>2.**O(n<sup>2</sup>)**/**O(1)**|1. Dictionary and iterate<br>2. Brute Force|
 |268|[Missing Number][268L]|[Python][268F]|1.**O(n)**/**O(n)**<br>2.**O(n)**/**O(1)**<br>3.**O(n)**/**O(1)**|1. Dictionary and lookup<br>2. Return if not in range<br>3. Sum of 0->n minus sum of nums|
 |448|[Find All Numbers Disappeared][448L]|[Python][448F]|**O(n)**/**O(n)**|1. if not in list, return<br>2. Use numpy to create a compare list<br>3. Set(list) and return difference|
 |1507|[Reformat Date][1507L]|[Python][1507F]|**O(n)**/**O(1)**|1. Dictionary and lookup date<br>2. Use .format and dictionary|
 |1876|[Substrings of Size Three with Distinct Characters][1876L]|[Python][1876F]|**O(n)**/**O(1)**|1. Sliding window; hard coded for 3|
-
 <!--   IGNORE HERE ON FORWARD  -->
 <!--   IGNORE HERE ON FORWARD  -->
 <!--   IGNORE HERE ON FORWARD  -->
