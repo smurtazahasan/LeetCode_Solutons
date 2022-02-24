@@ -38,7 +38,9 @@
 
 |#|Name|Solution|Time/Space|Technique Used|
 |---|------|:-----:|:-----:|------|
-|1343|[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold][1343L]|[Python][1343F]|**O(n))**/**O(1)**|1. Sliding window|
+|1004|[Max Consecutive Ones III][1004L]|[Python][1004F]|**O(n)**/**O(1)**|Sliding window|
+|1343|[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold][1343L]|[Python][1343F]|**O(n)**/**O(1)**|Sliding window|
+
 
 <!--   IGNORE HERE ON FORWARD  -->
 <!--   IGNORE HERE ON FORWARD  -->
