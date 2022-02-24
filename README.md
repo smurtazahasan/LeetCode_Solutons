@@ -34,6 +34,9 @@
 |1876|[Substrings of Size Three with Distinct Characters][1876L]|[Python][1876F]|**O(n)**/**O(1)**|1. Sliding window; hard coded for 3|
 |1984|[Minimum Difference Between Highest and Lowest of K Scores][1984L]|[Python][1984F]|**O(nlog(n))**/**O(1)**|1. Sliding window|
 
+## Medium
+|1343|[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold][1343L]|[Python][1343F]|**O(n))**/**O(1)**|1. Sliding window|
+
 <!--   IGNORE HERE ON FORWARD  -->
 <!--   IGNORE HERE ON FORWARD  -->
 <!--   IGNORE HERE ON FORWARD  -->
