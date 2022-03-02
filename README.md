@@ -41,7 +41,7 @@
 |---|------|:-----:|:-----:|------|
 |1004|[Max Consecutive Ones III][1004L]|[Python][1004F]|**O(n)**/**O(1)**|Sliding window|
 |1343|[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold][1343L]|[Python][1343F]|**O(n)**/**O(1)**|Sliding window|
-
+|1456|[Maximum Number of Vowels in a Substring of Given Length][1456L]|[Python][1456F]|**O(n)**/**O(n)**|Sliding window with deque|
 
 <!--   IGNORE HERE ON FORWARD  -->
 <!--   IGNORE HERE ON FORWARD  -->
